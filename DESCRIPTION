@@ -1,14 +1,22 @@
 Package: humanHippocampus2024
 Title: Access to SRT and snRNA-seq data from spatial_HPC project
-Version: 1.4.0
+Version: 1.4.1
 Date: 2024-09-20
-Authors@R: 
+Authors@R: c(
     person(
-        given = "Christine", 
+        given = "Christine",
         family = "Hou",
-        email = "chris2018hou@gmail.com", 
+        email = "chris2018hou@gmail.com",
         role = c("aut", "cre"),
         comment = c(ORCID = "0009-0001-5350-0629")
+    ),
+    person(
+        given = "Stephanie C.",
+        family = "Hicks",
+        email = "shicks19@jhu.edu",
+        role = c("aut", "fnd"),
+        comment = c(ORCID = "0000-0002-7858-0231")
+    )
     )
 Description: This is an ExperimentHub Data package that helps to access the 
     spatially-resolved transcriptomics and single-nucleus RNA sequencing data.
